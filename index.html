@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="scroll-smooth">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -21,56 +21,170 @@
     </style>
   </head>
 
-  <body class="bg-gray-900 text-gray-100 font-sans leading-relaxed flex flex-col min-h-screen">
-
-    <header class="bg-gray-800 shadow sticky top-0 z-10">
+  <body class="bg-red-900 text-gray-100 font-sans leading-relaxed flex flex-col min-h-screen">
+    <nav class="bg-red-800 text-blue-300 p-2 old-style-border">
+      <div class="container mx-auto flex justify-between items-center">
+        <h1 class="text-3xl font-bold text-blue-400">Foods That are YUMMMM !!</h1>
+        <ul class="flex space-x-2">
+          <li><a href="#" class="hover:underline">Home</a></li>
+          <li><a href="#foods" class="hover:underline">Foods</a></li>
+          <li><a href="#reviews" class="hover:underline">Reviews</a></li>
+          <li><a href="#about" class="hover:underline">About</a></li>
+          <li><a href="#faq" class="hover:underline">FAQ</a></li>
+        </ul>
+      </div>
+    </nav>
+    <header class="bg-red-800 shadow sticky top-0 z-10">
       <div class="max-w-7xl mx-auto px-4 py-6">
         <h1 class="text-3xl font-bold text-center">
-         🍲My Favourite Foods !!
+         My Favourite Foods !!
         </h1>
       </div>
     </header>
 
     <main class="max-w-7xl mx-auto px-4 py-10">
+      <section id="#" class="mb-10">
+        <p class="text-white mb-4 text-2xl">Food !! Often seen as a source for energy, is more than that to me ! Kind of like love to me !! It gives me joy and helps me enjoy my days even when I'm sad or down !!</p>
+      </section>
+
+      <section id="foods" class="mb-10">
+        <h2 class="text-6xl font-bold mb-6">My Favourite Foods</h2>
+        <p class="text-blue-300 mb-4"><b>These are the best foods (according to me OBV)</b></p>
       <div class="grid gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
 
-        <a href="" class="block bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h2 class="text-xl font-semibold mb-4">BIRYANI</h2>
+        <a data-aos="fade-up" class="block bg-yellow-800 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h2 class="text-xl font-semibold mb-4"><u>Biryani</u></h2>
           <img src="https://imgs.search.brave.com/C3USKn-5OcdCo9QgmygFx-_xEksoXlEig6I1wZ8AHJU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/Y3JlYXRlLnZpc3Rh/LmNvbS9hcGkvbWVk/aWEvc21hbGwvNDcz/OTY2MDY4L3N0b2Nr/LXBob3RvLWNoaWNr/ZW4tYmlyeWFuaS1r/ZXJhbGEtc3R5bGUt/Y2hpY2tlbi1kaHVt/LWJpcml5YW5pLW1h/ZGUtdXNpbmctamVl/cmE" alt="Biryani" class="w-full h-48 object-cover rounded mb-4" />
           <p class="text-gray-300">The Best !! The OG !! The never replaceable BIRYANI !!</p>
         </a>
 
-        <a href="" class="block bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h2 class="text-xl font-semibold mb-4">CHICKEN CURRY</h2>
+        <a data-aos="fade-up" class="block bg-yellow-800 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h2 class="text-xl font-semibold mb-4"><u>CHICKEN CURRY</u></h2>
           <img src="https://imgs.search.brave.com/xOaAZK6GKZL6NKYr69FCYId3bwV0B3vnpCvCaXDWgQA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAyLzE3LzMwLzM4/LzM2MF9GXzIxNzMw/Mzg5Nl84Nm9vTkNV/RTRGVU1oNDVManhr/NFF4UGhFeHdyZHRL/Yi5qcGc" alt="Chicken Curry" class="w-full h-48 object-cover rounded mb-4" />
           <p class="text-gray-300">India's favourite chicken dish CHICKEN CURRY !!</p>
         </a>
 
-        <a href="" class="block bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h2 class="text-xl font-semibold mb-4">KEBAB</h2>
+        <a data-aos="fade-up" class="block bg-yellow-800 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h2 class="text-xl font-semibold mb-4"><u>Kebab</u></h2>
           <img src="https://imgs.search.brave.com/BmA0OJMItI7f7FgDdCVKpPOaobLmbEu7y0nkh0_nQGY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9wbGF0/Zm9ybS5sYS5lYXRl/ci5jb20vd3AtY29u/dGVudC91cGxvYWRz/L3NpdGVzLzI2L2No/b3J1cy91cGxvYWRz/L2Nob3J1c19hc3Nl/dC9maWxlLzIzMzA3/Mzc2L0R2aW5fTWVh/dF9NYXJrZXRfS2Vi/YWJzX18xXy5qcGc_/cXVhbGl0eT05MCZz/dHJpcD1hbGwmY3Jv/cD0wLDUuNTQ1Njcw/MjI1Mzg1NSwxMDAs/ODguOTA4NjU5NTQ5/MjI5Jnc9MjQwMA" alt="Kebab" class="w-full h-48 object-cover rounded mb-4" />
           <p class="text-gray-300">The life of lucknow, The Kebabs !!</p>
         </a>
 
-        <a href="" class="block bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h2 class="text-xl font-semibold mb-4">ALOO PAROTHA</h2>
+        <a data-aos="fade-up" class="block bg-yellow-800 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h2 class="text-xl font-semibold mb-4"><u>Aloo Paratha</u></h2>
           <img src="https://imgs.search.brave.com/pHgsnyG_6EJui1eeCr3TwIr2502u5seiNrKlaswRUmk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTI1/MTM0MDgxOC9waG90/by9hbG9vLXBhcmF0/aGEtb3Itc3R1ZmZl/ZC1wb3RhdG8tZmxh/dGJyZWFkLXdpdGgt/Y3VyZC1hbmQtd2hp/dGUtYnV0dGVyLmpw/Zz9zPTYxMng2MTIm/dz0wJms9MjAmYz1V/STI1TENGcnlHLW1S/MFQyeUZoby0yV0F2/NUZjN1dWMEF1UGZ1/eUxsSTMwPQ" alt="Aloo Paratha" class="w-full h-48 object-cover rounded mb-4" />
           <p class="text-gray-300">Indian Mom's favorite for their children, Aloo de Parothe !!</p>
         </a>
 
-        <a href="" class="block bg-gray-800 p-6 rounded-lg shadow hover:shadow-lg transition">
-          <h2 class="text-xl font-semibold mb-4">LITTI CHOKHA</h2>
+        <a data-aos="fade-up" class="block bg-yellow-800 p-6 rounded-lg shadow hover:shadow-lg transition">
+          <h2 class="text-xl font-semibold mb-4"><u>Litti Chokha</u></h2>
           <img src="https://imgs.search.brave.com/Pc0GSNtya9PPRd5mJRlkHEi34xno1LAc2V9fpeazOOk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90aHVt/YnMuZHJlYW1zdGlt/ZS5jb20vYi9waWN0/dXJlLWxpdHRpLWNo/b2toYS1zZWxlY3Rl/ZC1mb2N1cy0xOTQ1/MDI5OTkuanBn" alt="Litti Chokha" class="w-full h-48 object-cover rounded mb-4" />
           <p class="text-gray-300">Bihar's famous dish, The OG Litti Chokha !!</p>
         </a>
       </div>
-    </main>
+      <section/>
+      <section id="reviews" class="mb-10">
+        <h2 class="text-6xl font-bold mb-6">Reviews</h2>
+        <p class="text-blue-400 mb-3"><b>These are the reviews I got about my favourite foods !!</b></p>
+        <div class="space-y-4">
+          <div class="bg-pink-700 p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold"><u>Biryani</u></h3>
+            <p class="text-green-300">"Biryani is the best food I've ever had! The flavors are so full ! NGL the top one !!"</p>
+          </div>
+          <div class="bg-pink-700 p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold"><u>Chicken Curry</u></h3>
+            <p class="text-green-300">"Chicken curry is a banger really. It just need to be perfectly spicy and juicy !"</p>
+          </div>
+          <div class="bg-pink-700 p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold"><u>Kebab</u></h3>
+            <p class="text-green-300">"The kebabs are really the one of a kind to die for! Perfectly grilled ummmaah !"</p>
+          </div>
+          <div class="bg-pink-700 p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold"><u>Aloo Paratha</u></h3>
+            <p class="text-green-300">"Aloo paratha is my comfort food. Always kills the hunger and best paired with curd !!"</p>
+          </div>
+          <div class="bg-pink-700 p-4 rounded-lg shadow">
+            <h3 class="text-lg font-semibold"><u>Litti Chokha</u></h3>
+            <p class="text-green-300">"The OG Litti Chokha. Famous from bihar (also my place) is so good I can't stop yapping about it !!"</p>
+          </div>
+        </div>
+      </section>
 
-    <footer class="bg-gray-800 shadow-inner mt-auto">
-      <div class="max-w-7xl mx-auto px-4 py-6 text-center text-gray-400 text-sm">
+      <section id="about" class="mb-10">
+        <h2 class="text-6xl font-bold mb-6">About Me</h2>
+        <div class="bg-blue-900 p-4 rounded-lg shadow">
+        <p class="mb-3"><b>Yo I'm Viraj !! And this website shows all the love that I have for food !!</b></p>
+        <p class="text">According to me food is more than just food to me !! It is the best thing that happens to me in a day. <br>
+          Whenever I'm feeling down I jut go and grab a good meal and boom the sadness vanishes like it was never there !!</p>
+        </div>
+      </section>
+
+      <section id="faq" class="container mx-auto px-4 py-12 text-center old-style-border mt-6 mb-10">
+  <h3 class="text-4xl font-bold text-white-600 mb-6">Frequently Asked Questions</h3>
+  <div class="space-y-4 max-w-2xl mx-auto text-left">
+    
+    <div class="border border-yellow-500 rounded">
+      <button class="w-full text-left px-4 py-3 font-semibold bg-purple-800 text-yellow-300 focus:outline-none toggle-faq">
+        What are your go-to snacks?
+      </button>
+      <div class="hidden px-4 py-3 bg-purple-900 text-white-600">
+        That's a secret but "Haldiram's Bhujia" is the one !!
+      </div>
+    </div>
+
+    <div class="border border-yellow-500 rounded">
+      <button class="w-full text-left px-4 py-3 font-semibold bg-purple-800 text-yellow-300 focus:outline-none toggle-faq">
+        Which is your favorite restaurant?
+      </button>
+      <div class="hidden px-4 py-3 bg-purple-900 text-white-600">
+        Street food is the best !! Nothing comes even close to that !!
+      </div>
+    </div>
+
+    <div class="border border-yellow-500 rounded">
+      <button class="w-full text-left px-4 py-3 font-semibold bg-purple-800 text-yellow-300 focus:outline-none toggle-faq">
+        Are you planning to do something in the food section ?
+      </button>
+      <div class="hidden px-4 py-3 bg-purple-900 text-white-600">
+        Being delusional about starting a restaurant maybe !!
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<button id="backToTop"
+        onclick="window.scrollTo({top: 0, behavior: 'smooth'})"
+        class="hidden fixed bottom-4 right-4 bg-yellow-500 text-black px-5 py-2 rounded shadow-lg hover:bg-yellow-400 transition duration-300 ease-in-out">
+  ↑ Top
+</button>
+
+</main>
+
+    <footer class="bg-red-800 shadow-inner mt-auto">
+      <div class="max-w-7xl mx-auto px-4 py-6 text-center text-gra-400 text-sm">
         Ending bruh !! Go away now !!
       </div>
     </footer>
 
+    <script>
+      document.querySelectorAll('.toggle-faq').forEach(button => {
+        button.addEventListener('click', () => {
+          const answer = button.nextElementSibling;
+          answer.classList.toggle('hidden');
+        });
+      });
+      const btn = document.getElementById('backToTop');
+
+  window.addEventListener('scroll', () => {
+    if (window.scrollY > 100) {
+      btn.classList.remove('hidden');
+      btn.classList.add('block');
+    } else {
+      btn.classList.remove('block');
+      btn.classList.add('hidden');
+    }
+  });
+    </script>
   </body>
 </html>
